@@ -1,8 +1,8 @@
 # LOOKBOOK · 관리자 전용 업로드 + 공개 3D 룩북
 
-- **방문자 사이트:** https://mkj5956.github.io/Cookbook-site/
-- **관리자 페이지:** https://mkj5956.github.io/Cookbook-site/admin.html
-- **Windows 다운로드:** https://github.com/mkj5956/Cookbook-site/archive/refs/heads/main.zip
+- **방문자 사이트:** https://mkj5956.github.io/Look-book_site/
+- **관리자 페이지:** https://mkj5956.github.io/Look-book_site/admin.html
+- **Windows 다운로드:** https://github.com/mkj5956/Look-book_site/archive/refs/heads/main.zip
 
 ## 방문자는 이렇게 사용합니다
 
@@ -19,7 +19,7 @@
 
 GitHub Pages는 화면과 파일을 제공하는 정적 호스팅입니다. 서버 비밀번호를 코드에 넣지 않고 **GitHub의 저장소 쓰기 권한**으로 게시를 보호합니다.
 
-1. [관리자 페이지](https://mkj5956.github.io/Cookbook-site/admin.html)를 엽니다.
+1. [관리자 페이지](https://mkj5956.github.io/Look-book_site/admin.html)를 엽니다.
 2. `처음 사용해요 · 인증 코드 만들기`를 펼칩니다.
 3. GitHub에서 **Fine-grained personal access token**을 만듭니다.
    - 계정: `mkj5956`
@@ -63,7 +63,7 @@ GPU의 메모리·드라이버·사진에 따라 실행 가능 여부와 속도�
 4. `3D 착용 미리보기`를 회전해 확인합니다. 3D 생성만 실패하면 착용 사진은 보관하며 `3D 다시 생성`으로 재시도할 수 있습니다.
 5. 완성된 3D 파일이 따로 있으면 `3D 파일 등록`으로 교체할 수 있습니다. 텍스처가 내장된, 추가 확장·압축 없는 **GLB 2.0 / 최대 20MB**를 사용하세요.
 6. 등록한 모든 의상이 준비되면 `공개 내용 확인 → 위 내용으로 공개하기`를 누릅니다.
-7. GitHub 저장 후 Pages 배포가 완료되면 방문자 사이트에 반영됩니다. 보통 1~3분이며 [Actions](https://github.com/mkj5956/Cookbook-site/actions)에서 확인할 수 있습니다.
+7. GitHub 저장 후 Pages 배포가 완료되면 방문자 사이트에 반영됩니다. 보통 1~3분이며 [Actions](https://github.com/mkj5956/Look-book_site/actions)에서 확인할 수 있습니다.
 
 `현재 룩에 더하기`를 켜면 이전 착용 결과에 다음 옷을 합성합니다. 게시되는 각 슬롯은 **완성된 전체 착장 한 개**입니다. 방문자가 상의·하의를 독립적으로 실시간 조합하는 옷 시뮬레이션은 아닙니다. 해당 착장에 사용된 상품 링크는 모두 함께 표시합니다.
 
