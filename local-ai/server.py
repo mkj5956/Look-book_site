@@ -20,7 +20,7 @@ import webbrowser
 
 ROOT = Path(__file__).resolve().parent
 WEB_ROOT = ROOT.parent / 'web'
-PAGES_URL = 'https://mkj5956.github.io/Cookbook-site/'
+PAGES_URL = 'https://mkj5956.github.io/Look-book_site/'
 MAX_BODY = 28 * 1024 * 1024
 MAX_IMAGE = 10 * 1024 * 1024
 CATEGORIES = {'tops', 'bottoms', 'one-pieces'}

@@ -23,7 +23,7 @@ GitHub Pages는 화면과 파일을 제공하는 정적 호스팅입니다. 서�
 2. `처음 사용해요 · 인증 코드 만들기`를 펼칩니다.
 3. GitHub에서 **Fine-grained personal access token**을 만듭니다.
    - 계정: `mkj5956`
-   - Repository access: **Only select repositories → Cookbook-site**
+   - Repository access: **Only select repositories → Look-book_site**
    - Repository permissions: **Contents → Read and write**
    - 나머지 추가 권한은 필요하지 않습니다. 적절한 만료일을 정하세요.
 4. 발급된 코드를 관리자 화면에 붙여넣고 `관리자 연결`을 누릅니다.

@@ -24,7 +24,7 @@ function github(overrides = {}) {
     calls.push({pathname,method:options.method,body});
     let result;
     if(pathname==='/user') result={login:overrides.login || 'mkj5956'};
-    else if(pathname==='/repos/mkj5956/Cookbook-site') result={full_name:'mkj5956/Cookbook-site',permissions:{push:true}};
+    else if(pathname==='/repos/mkj5956/Look-book_site') result={full_name:'mkj5956/Look-book_site',permissions:{push:true}};
     else if(pathname.includes('/contents/')) result={sha:'catalog-v1'};
     else if(pathname.endsWith('/git/ref/heads/main')) result={object:{sha:++refs>1&&overrides.conflict?'other-head':'head'}};
     else if(pathname.endsWith('/git/commits/head')) result={tree:{sha:'tree'}};
